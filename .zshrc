@@ -15,7 +15,7 @@ ZSH=$HOME/.oh-my-zsh
 # ZSH_THEME="dst"
 # ZSH_THEME="duellj"
 # ZSH_THEME="fino-time"
-#ZSH_THEME="jonathan"
+# ZSH_THEME="jonathan"
 ZSH_THEME="fino-time"
 
 # Example aliases
@@ -39,12 +39,14 @@ alias gcm="git commit -m"
 alias gpll="git pull github"
 alias gpllo="git pull origin"
 
-# for emacsclient
+# for Emacs and EmacsClient
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs"
 ec()
 {
 /Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs -n "$*"
 }
+[ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+# [ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && echo "File exists" || echo "File does not exists"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
