@@ -79,6 +79,9 @@ export UPDATE_ZSH_DAYS=1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git osx)
 
+# Autojump
+[[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
+
 source $ZSH/oh-my-zsh.sh
 
 # Path for git
