@@ -25,6 +25,15 @@ alias macvim="open -a MacVim"
 alias lsg="ls | grep "
 alias lslg="ls -a | grep "
 
+# Automatic open
+alias -s pdf=open
+alias -s txt=vim
+alias -s java=vim
+alias -s js=vim
+alias -s html=vim
+alias -s tex=vim
+alias -s bib=vim
+
 # for hadoop
 alias hfs="hadoop fs "
 alias hfls="hadoop fs -ls"
