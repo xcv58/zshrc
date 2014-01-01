@@ -97,7 +97,10 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:/Applications/MATLAB_R2013a.app/bin
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin
+
+# Path for Matlab
+export PATH=$PATH:/Applications/MATLAB_R2013a.app/bin
 
 # Customize HADOOP
 export HADOOP_INSTALL=/Users/xcv58/hadoop
