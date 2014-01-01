@@ -50,11 +50,11 @@ alias gpllo="git pull origin"
 
 # for Emacs and EmacsClient
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs"
-ec()
-{
-/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs -n "$*"
-}
-[ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw" && alias emacsclient="/usr/local/Cellar/emacs/24.3/bin/emacsclient -n"
+# ec()
+# {
+# /Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs -n "$*"
+# }
+[ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw" && alias emacsclient="/usr/local/Cellar/emacs/24.3/bin/emacsclient -n" && alias ec=emacsclient
 # [ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && echo "File exists" || echo "File does not exists"
 
 # Set to this to use case-sensitive completion
