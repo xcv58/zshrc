@@ -100,8 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # Path for git
 export PATH=/usr/local/bin:$PATH
 
-# Customize to your needs...
+# Path for bins
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin
+
+# Path for os161
+export PATH=$PATH:~/os161/tools/bin
 
 # Path for Matlab
 export PATH=$PATH:/Applications/MATLAB_R2013a.app/bin
@@ -115,6 +118,7 @@ export HADOOP_COMMON_HOME=$HADOOP_INSTALL
 export HADOOP_HDFS_HOME=$HADOOP_INSTALL
 export YARN_HOME=$HADOOP_INSTALL
 
+# Customize to your needs...
 
 # for emacs term
 if [[ -n ${INSIDE_EMACS} ]]; then
