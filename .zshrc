@@ -97,8 +97,11 @@ plugins=(git osx)
 
 source $ZSH/oh-my-zsh.sh
 
-# Path for git
+# Path for /usr/local/bin
 export PATH=/usr/local/bin:$PATH
+
+# add current directory to PATH
+export PATH=.:$PATH
 
 # Path for bins
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin
