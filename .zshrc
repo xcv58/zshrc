@@ -50,6 +50,7 @@ alias gcma="git commit -am"
 alias gcm="git commit -m"
 alias gpll="git pull github"
 alias gpllo="git pull origin"
+alias gdiff="git --no-pager diff"
 
 # for Emacs and EmacsClient
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs"
