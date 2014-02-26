@@ -51,6 +51,13 @@ alias gcm="git commit -m"
 alias gpll="git pull github"
 alias gpllo="git pull origin"
 alias gdiff="git --no-pager diff"
+alias glog="git --no-pager log"
+alias gck="git checkout"
+
+# for OS161 CSE 521
+alias r="cd ~/root && sys161 kernel"
+alias rk="cd ~/root && sys161 -w kernel"
+alias db="cd ~/root && mips-harvard-os161-gdb kernel"
 
 # for Emacs and EmacsClient
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs"
