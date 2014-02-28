@@ -54,6 +54,9 @@ alias gdiff="git --no-pager diff"
 alias glog="git --no-pager log"
 alias gck="git checkout"
 
+# for Preview open pdf
+alias o="open -a Preview"
+
 # for OS161 CSE 521
 alias r="cd ~/root && sys161 kernel"
 alias rk="cd ~/root && sys161 -w kernel"
