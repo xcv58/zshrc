@@ -47,7 +47,7 @@ alias hjar="hadoop jar"
 # for git
 alias gph="git push github"
 alias gcma="git commit -am"
-alias gcm="git commit -m"
+alias gcmm="git commit -m"
 alias gpll="git pull github"
 alias gpllo="git pull origin"
 alias gdiff="git --no-pager diff"
