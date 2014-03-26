@@ -63,12 +63,14 @@ alias rk="cd ~/root && sys161 -w kernel"
 alias db="cd ~/root && mips-harvard-os161-gdb kernel"
 
 # for Emacs and EmacsClient
+alias ec="emacsclient"
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs"
 # ec()
 # {
 # /Applications/Emacs.app/Contents/MacOS/bin/emacsclient --alternate-editor=/Applications/Emacs.app/Contents/MacOS/Emacs -n "$*"
 # }
-[ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw" && alias emacsclient="/usr/local/bin/emacsclient" && alias ec=emacsclient
+# [ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacsclient="/usr/local/bin/emacsclient" && alias ec=emacsclient
+# [ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw" && alias emacsclient="/usr/local/bin/emacsclient" && alias ec=emacsclient
 export ALTERNATE_EDITOR=""
 # [ -f /Applications/Emacs.app/Contents/MacOS/Emacs ] && echo "File exists" || echo "File does not exists"
 
@@ -107,6 +109,10 @@ plugins=(git osx)
 [[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
 
 source $ZSH/oh-my-zsh.sh
+
+# Path for Emacs
+export PATH=/Applications/Emacs.app/Contents/MacOS:$PATH
+export PATH=/Applications/Emacs.app/Contents/MacOS/bin:$PATH
 
 # Path for /usr/local/bin
 export PATH=/usr/local/bin:$PATH
