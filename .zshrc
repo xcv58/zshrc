@@ -53,13 +53,14 @@ alias gpllo="git pull origin"
 alias gdiff="git --no-pager diff"
 alias glog="git --no-pager log"
 alias gck="git checkout"
+alias grsh="git reset --hard"
+alias grss="git reset --soft"
+
 
 # for Preview open pdf
 alias o="open -a Preview"
 
 # for OS161 CSE 521
-alias r="cd ~/root && sys161 kernel"
-alias rk="cd ~/root && sys161 -w kernel"
 alias db="cd ~/root && mips-harvard-os161-gdb kernel"
 
 # for Emacs and EmacsClient
@@ -109,6 +110,10 @@ plugins=(git osx)
 [[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
 
 source $ZSH/oh-my-zsh.sh
+
+# Path for Shell script
+export PATH=~/Dropbox/Software/MacHome/Shell_script:$PATH
+export PATH=~/Dropbox/Software/MacHome/Shell_script/os161:$PATH
 
 # Path for Emacs
 export PATH=/Applications/Emacs.app/Contents/MacOS:$PATH
