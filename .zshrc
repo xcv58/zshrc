@@ -111,6 +111,8 @@ plugins=(git osx)
 
 source $ZSH/oh-my-zsh.sh
 
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
 # Path for Shell script
 export PATH=~/Dropbox/Software/MacHome/Shell_script:$PATH
 export PATH=~/Dropbox/Software/MacHome/Shell_script/os161:$PATH
@@ -142,6 +144,9 @@ export HADOOP_MAPRED_HOME=$HADOOP_INSTALL
 export HADOOP_COMMON_HOME=$HADOOP_INSTALL
 export HADOOP_HDFS_HOME=$HADOOP_INSTALL
 export YARN_HOME=$HADOOP_INSTALL
+
+# Set JAVA_HOME
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Customize to your needs...
 
