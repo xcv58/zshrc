@@ -158,3 +158,6 @@ if [[ -n ${INSIDE_EMACS} ]]; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+#THIS MUST BE AT THE END OF THE FILE FOR JENV TO WORK!!!
+[[ -s "/Users/xcv58/.jenv/bin/jenv-init.sh" ]] && source "/Users/xcv58/.jenv/bin/jenv-init.sh" && source "/Users/xcv58/.jenv/commands/completion.sh"
