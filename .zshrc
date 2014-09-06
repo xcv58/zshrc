@@ -136,6 +136,9 @@ export PATH=$PATH:~/os161/tools/bin
 # Path for Matlab
 export PATH=$PATH:/Applications/MATLAB_R2013a.app/bin
 
+# CLASSPATH for TLA+
+export CLASSPATH=$CLASSPATH:/Users/xcv58/Dropbox/Buffalo/586/tla
+
 # Customize HADOOP
 export HADOOP_INSTALL=/Users/xcv58/hadoop
 export HADOOP_HOME=$HADOOP_INSTALL
