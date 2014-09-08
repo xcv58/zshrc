@@ -4,6 +4,8 @@ ZSH=$HOME/.oh-my-zsh
 # Automatically update without prompting
 DISABLE_UPDATE_PROMPT=true
 
+SKIP_GLOBAL_COMPINIT=1
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -161,6 +163,3 @@ if [[ -n ${INSIDE_EMACS} ]]; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-#THIS MUST BE AT THE END OF THE FILE FOR JENV TO WORK!!!
-[[ -s "/Users/xcv58/.jenv/bin/jenv-init.sh" ]] && source "/Users/xcv58/.jenv/bin/jenv-init.sh" && source "/Users/xcv58/.jenv/commands/completion.sh"
